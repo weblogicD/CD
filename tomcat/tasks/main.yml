@@ -46,3 +46,28 @@
      name: tomcat
      state: started
      daemon_reload: true     
+-  name: copy user.xml
+   template:
+     src: tomcat-users.xml
+     dest: /opt/tomcat/conf
+     owner: tomcat
+     group: tomcat
+     mode: 0777
+     
+-  name: copy backup.sh
+   template:
+     src: backup.sh
+     dest: /opt
+     mode: 0777
+      
+-  name: copy deploy.sh
+   template:
+     src: deploy.sh
+     dest: /opt
+     mode: 0777
+      
+-  name: excute backup script
+   shell: sh /opt/backup.sh
+    
+-  name: excute deploy.sh
+   shell: sh /opt/deploy.sh
