@@ -15,7 +15,7 @@ FILE="$BACKUP_DATE.tar.gz"
 mkdir -p $BACKUP_DIR
 echo "create backup directory"
 
-if [ -d $BACKUP_DIR ]
+if [ -d $BACKUP_DIR ]; then
 	tar -cvf $FILE $BACKUP_PATH
 else
 	echo "BACKUP_DIR : $BAKUP_DIR does not exist"
