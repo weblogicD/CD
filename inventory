@@ -1,0 +1,16 @@
+[webserver]
+54.145.232.31
+54.208.239.11
+
+[appserver] 
+
+
+
+[dbserver:children]
+webserver
+appserver
+
+
+[dbserver:vars]
+ansible_ssh_user=ram
+ansible_ssh_pass=rk
