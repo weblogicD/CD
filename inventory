@@ -1,6 +1,6 @@
 [webserver]
-54.145.232.31 ansible_ssh_user=ram ansible_ssh_pass=rk
-54.208.239.11 ansible_ssh_user=ram ansible_ssh_pass=rk
+18.212.63.165 ansible_ssh_user=ram ansible_ssh_pass=rk
+18.212.196.16 ansible_ssh_user=ram ansible_ssh_pass=rk
 
 [appserver] 
 
