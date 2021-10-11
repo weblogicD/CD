@@ -1,5 +1,5 @@
 ---
  user: "kish"
  passwd: "kish"
- url: "http://18.222.149.99:8081/nexus/service/local/repositories/java/content/kishore/kish/1.0/kish-1.0.war"
+ url: "http://18.222.190.169:8081/nexus/service/local/repositories/java/content/kishore/kish/1.0/kish-1.0.war"
 # defaults file for tomcat
